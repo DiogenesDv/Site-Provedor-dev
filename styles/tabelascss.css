@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+#topo{
+    width: 100%;
+    padding: 0 20px;
+    background-color: #2f86d6;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.topo-logo, .rodape-logo{
+    display: flex;
+}
+
+.topo-logo img, .rodape-logo img{
+    width: 80px;
+}
+
+.topo-logo div, .rodape-logo div{
+    margin-left: 15px;
+}
+
+.topo-logo p, .rodape-logo p{
+    color: #dbe4ed;
+    font-weight: 600;
+}
+
+.topo-links a{
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #233032;
+    text-shadow: 1px 1px 2px;
+}
+
+.topo-links a:hover, .container-copyright span,
+.secao-informacoes h2 span, .secao-tabelas-de-planos h2 span{
+    color: #d9e1e8;
+}
+
+
+
+#conteudo-principal{
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.celula-cabeçalho, td{
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 2px solid #c6cdda;
+    border-right: 2px solid #c6cdda;
+}
+
+.celula-cabeçalho p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #6f6c6c;
+}
+
+.celula-cabeçalho h3{
+    font-size: 36px;
+}
+
+.cabeçalho-da-tabela th:first-child{
+    visibility: hidden;
+}
+
+.cabeçalho-da-tabela th:hover{
+    background-color: #2f86d6;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(68, 68, 68);
+    cursor: pointer;
+}
+
+.cabeçalho-da-tabela:nth-child(1){
+    background-color: #f1f3f7;
+}
+
+.linhas-da-tabela td:nth-child(1){
+    background-color: #f1f3f7;
+    font-weight: 500;
+    text-align: left;
+}
+
+.marcador-azul::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+
+#rodape{
+    margin-top: -60px;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2f86d6;
+    border-top: 2px solid #f1f3f7;
+}
+
+.container-texto-rodape{
+    text-align: center;
+    margin: 50px 0;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.container-copyright{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #c7c7c7;
+    text-shadow: 2px 2px 2px black;
+}
