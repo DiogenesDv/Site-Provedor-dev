@@ -283,6 +283,20 @@
 
 /*Responsive********************************************/
 
+@media(max-width:768px){
+    .container-texto-banner h2, .container-texto-banner p{
+        padding: 0 20px;
+    }
+    table{
+        width: 100%;
+        table-layout: fixed;
+    }
+    .tabela img{
+        width: 80px;
+    }
+
+}
+
 @media (max-width: 425px){
     .container-banner{
         padding: 50px 0;
@@ -333,20 +347,31 @@
         background-color: #f1f3f7;
     }
 
+    table{
+        width: 100%;
+        table-layout: fixed;
+    }
+
     .tabela img{
         display: none;
     }
 
+
     .celula-cabeçalho{   
         padding: 5px 0;
+        height: 80px;
+        
     }
 
     .celula-cabeçalho h3{
-        margin-bottom: 10px;
+        font-size: 12px;
+        margin-bottom: 5px;
+        
     }
        
-    .celula-cabeçalho small{
-        width: 140px;  
+    .celula-cabeçalho p{
+        font-size: 11px;    
+        color: #1b1a1a;
     }
     
     .linhas-da-tabela:nth-child(odd){
@@ -360,17 +385,18 @@
     }
     
     .linhas-da-tabela td{
-        border: 2px solid red;
         width: 100px;
         text-align: center;
         font-weight: 500;
         padding: 5px;
     }
 
-    .quebra{
-        border: 2px solid rgb(255, 251, 0);
+    .topo-links a{
+        display: flex;
+        padding: 5px;
     }
 }
+
 
 
 
