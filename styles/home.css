@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+#pag-home{
+    color: #2f86d6;
+}
+
 .limitar-secao{
     width: 100%;
     max-width: 1024px;
